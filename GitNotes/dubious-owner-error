@@ -1,0 +1,20 @@
+## Git detect dubious ownership in repository
+#
+
+## Error explanation 
+Read - https://medium.com/@thecodinganalyst/git-detect-dubious-ownership-in-repository-e7f33037a8f 
+
+
+## Error message
+Error - 
+fatal: detected dubious ownership in repository at 'C:/Users/abc/Projects/my-awesome-project'
+'C:/Users/abc/Projects/my-awesome-project' is owned by:
+        'S-1-5-32-544'
+but the current user is:
+        'S-1-12-1-1347659835-1128888854-2982737882-1111120199'
+To add an exception for this directory, call:       
+    git config --global --add safe.directory C:/Users/abc/Projects/my-awesome-project
+
+
+## Solution 
+$ git config --global --add safe.directory C:/Users/abc/Projects/my-awesome-project

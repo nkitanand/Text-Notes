@@ -12,11 +12,6 @@
 
 You will notice below error during clone operation -
 
-Error (Dubious ownership) - 
-fatal: detected dubious ownership in repository at 'path/to/repo'
-
-OR
-
 Error (Permission denied) -
 git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
