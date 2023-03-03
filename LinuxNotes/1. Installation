@@ -1,0 +1,14 @@
+## Installing Linux (Ubuntu)
+#
+
+## Download
+1. Download Ubuntu iso image from official website.
+
+Note - Try installing LTS version (LTS = Long Term Support)
+URL  - https://ubuntu.com/download
+
+## Create Bootable USB
+2. Create a bootable usb using any trusted application like Rufus
+
+## Persistence
+3. Persistence space is used to store any work you do while running linux from usb.
