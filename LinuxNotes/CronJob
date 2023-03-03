@@ -1,0 +1,18 @@
+## Cron job is a linux tool used to run certain commands or bash script at certain intervals regularly
+## This automation tool is used in servers widely. Few examples -
+#  1 - Start your application at reboot
+#  2 - Run backup script every day
+#  3 - Checking and cleaning file system at interval, say every 6 hours
+
+## Let's create a cron job to mount your drive at reboot
+#
+# source - https://phoenixnap.com/kb/crontab-reboot 
+
+# Open the cron task list by using the following command:
+$ crontab -e
+
+# Add command in the following format -
+# @reboot [path to command] [argument1] [argument2] … [argument n]
+@reboot bash ~/path/to/mountscript.sh
+
+# Save your changes and your are set to go.
