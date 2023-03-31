@@ -12,3 +12,27 @@ URL  - https://ubuntu.com/download
 
 ## Persistence
 3. Persistence space is used to store any work you do while running linux from usb.
+
+-----------------------------------------------------------------
+------- Common commands to run regularly ------------------------
+-----------------------------------------------------------------
+
+$ sudo apt update
+$ sudo apt upgrade
+# or
+$ sudo apt upgrade -y  # choose yes to every prompt
+
+
+------------------------------------------------------------------
+-------- How to install VS Code in Linux -------------------------
+------------------------------------------------------------------
+
+## Installation command
+$ sudo snap install --classic code
+
+## Run VS Code
+$ code
+
+## uninstall VS Code
+$ sudo snap remove code
+
